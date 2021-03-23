@@ -19,6 +19,24 @@
       }
     </style>
     <script>
+	class Graph {
+    // defining vertex array and
+    // adjacent list
+    constructor(noOfVertices)
+    {
+        this.noOfVertices = noOfVertices;
+        this.AdjList = new Map();
+    }
+  
+    // functions to be implemented
+  
+    // addVertex(v)
+    // addEdge(v, w)
+    // printGraph()
+  
+    // bfs(v)
+    // dfs(v)
+}
       function djikstraAlgorithm(startNode) {
         let distances = {};
 
@@ -98,7 +116,7 @@
         <label for="Fastest">Fastest</label>
         <input type="radio" id="cheap" name="tot" value="cheap" />
         <label for="Cheapest">Cheapest</label><br />
-        <button type="button" class="registerbtn" onclick="val()">Find</button>
+        <button type="button" class="registerbtn" onclick="val">Find</button>
       </form>
     </div>
     <div id="display"></div>
